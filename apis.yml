@@ -1,8 +1,24 @@
 aid: postini
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postini.png
 name: Postini
-description: 'Postini is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Postini was an email security and message-management company founded in 1999, providing
+  hosted spam and virus filtering, email archiving, encryption, and web security for businesses. Google
+  acquired Postini in 2007 (roughly $625M) and folded its capabilities into Google Apps (now Google
+  Workspace); the standalone Postini service was discontinued and customers were transitioned to Google
+  Apps by around 2012. The postini.com domain is now Google-owned and redirects to google.com. This
+  profile is retained as a historical portfolio-lead record; the company has no live, standalone API
+  surface, developer portal, or documentation to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/postini/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Cybersecurity
+- Email Security
+- Spam Filtering
+- Message Archiving
+- Email Encryption
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
